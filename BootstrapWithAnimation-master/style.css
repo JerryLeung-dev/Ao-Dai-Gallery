@@ -507,6 +507,9 @@ h1.background span {
 }
 
 /*----Responsive handling---*/
+
+
+
 @media(max-width:1000px){
 	.col-md-3 {
 		margin-bottom: 5vh;
@@ -545,7 +548,12 @@ h1.background span {
 	.article-image {
 		height:700px;
 	}
+	.article-image-2 {
+		height: 500px;
+	}
 }
+
+
 
 /*---article-text: read more read less fix --- */
 .more {
