@@ -523,22 +523,28 @@ h1.background span {
 	.article-image{
 		width:100%;
 		order:1;
+		height: 500px;
+	}
+	.article-image-2 {
+		height: 350px;
 	}
 	.article-text {
 		width:100%;
 		padding: 0 5vw;
 		order: 2;
 	}
-	.left-side {
+	/* .left-side {
 		width:100%;
 	}
 	.right-side {
 		width:100%;
+	} */
+}
+
+@media (max-width:768px){
+	.article-image {
+		height:700px;
 	}
-
-
-
-
 }
 
 /*---article-text: read more read less fix --- */
