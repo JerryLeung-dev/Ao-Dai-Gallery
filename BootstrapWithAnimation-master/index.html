@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The beauty in Viet Nam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font awesome Bootstrap CDN -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="images/favicon-16x16.png" type="image/png" />
+	<!--  -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- Audio embbed -->
+	<audio id="audi">
+		<source src="audios/music.mp3" type="audio/mpeg">
+		No audio found!
+	</audio>
+	<section class="header">
+		<nav class="navbar navbar-expand-lg navbar-light " id="navBarTarget">
+		  <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+		  <button class="navbar-toggler no-border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars"></i>	
+		  </button>
+		  <!-- <script>
+			  function toggleDrawer() {
+				  toggle = document.getElementById('drawer');
+				  toggle.toggleAttribute('aria-expanded');
+			  }
+		  </script> -->
+		  <div class="collapse navbar-collapse">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#classic">CLASSIC</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#high-school">HIGH SCHOOL</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#artworks">ARTWORKS</a>
+		      </li>
+		    </ul>
+		    <!-- if we want to put the ul on the right then use ml-auto -->
+		    <ul class="right-menu ml-auto">
+				<li><i class="fa fa-music" id="music-icon"></i></li>
+		    	<li><i class="fa fa-facebook"></i></li>
+				<li><i class="fa fa-instagram"></i></li>
+				<li><i class="fa fa-pinterest"></i></li>
+				<li>
+					<div class="input-group mb-3">
+  						<input type="text" class="form-control" placeholder="Search">
+						<div class="input-group-append">
+					    	<span class="input-group-text" ><i class="fa fa-search"></i></span>
+						</div>
+					</div>
+				</li>
+		    </ul>
+		  </div>
+		</nav>
+		<div class="banner">
+			<div class="banner-img">
+				<img src="images/banner.jpg">
+			</div>
+			<div class="banner-title">
+				<h1>AO DAI</h1>
+				<h2>UNIQUE BEAUTY OF VIETNAMESE WOMEN</h2>
+				<div class="banner-para">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+			</div>
+
+		</div>	
+	</section>
+	<!-- Traditional ao dai showcase -->
+	<div class="ao-dai-style text-center" id="classic">
+		<h1 class="background"><span>Classic Ao Dai</span></h1>
+	</div>
+	<section class="ao-dai-showcase">
+		<div class="container">
+			<div class="showcase-box">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	    				<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="11"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="12"></li>
+
+						</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="images/product-1.jpg" class="d-block w-50" alt="blue-ao-dai">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Vibrant vibe</h5>
+								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							</div>
+					</div>
+						<div class="carousel-item">
+							<img src="images/product-2.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Tender vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-3.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sunny vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-4.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Elegant vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-5.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Cozy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-6.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Innocent vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-8.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sexy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-9.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sexy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>	
+						<div class="carousel-item">
+							<img src="images/product-10.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sexy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-11.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sexy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/product-12.jpg" class="d-block w-50" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sexy vibe</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>						
+    				</div>
+    				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+						<span><img src="images/previous.png"></span>
+						<span class="sr-only">Previous</span>
+    				</a>
+    				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+						<span><img src="images/next.png"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- schoolgirl ao dai -->
+	<div class="ao-dai-style text-center" id="high-school">
+		<h1 class="background"><span>High school Ao Dai</span></h1>
+	</div>
+	<section class="ao-dai-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="schoolgirl-img schoolgirl-1">
+						<div class="overlay">
+							<button type="button" class="button" value="1" data-toggle="modal" data-target="#exampleModal" onclick="handleImage(this.value)">More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="schoolgirl-img schoolgirl-2">
+						<div class="overlay">
+							<button type="button" class="button" value="2" data-toggle="modal" data-target="#exampleModal" onclick="handleImage(this.value)">More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="schoolgirl-img schoolgirl-3">
+						<div class="overlay">
+							<button type="button" class="button" value="3" data-toggle="modal" data-target="#exampleModal" onclick="handleImage(this.value)">More</button>
+						</div>
+					</div>				
+				</div>
+				<div class="col-md-3">
+					<div class="schoolgirl-img schoolgirl-4">
+						<div class="overlay">
+							<button type="button" class="button" value="4" data-toggle="modal" data-target="#exampleModal" onclick="handleImage(this.value)">More</button>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">More Images</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="extra-imgs">
+							<div class="one" id="img-1"></div>
+							<div class="two" id="img-2"></div>
+							<div class="three" id="img-3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- article -->
+	<div class="ao-dai-style text-center" id="artworks">
+		<h1 class="background"><span>Ao dai Artworks</span></h1>
+	</div>
+	<div class="articles"></div>
+	<section class="article article-1">
+		<div class="article-image left-side"></div>
+		<div class="article-text right-side">
+			<div class="article-title"><h1>The Young Girl with Lily</h1></div>
+			<div class="article-para">
+				<p>
+					The Young Girl with Lily is considered to be the most famous work of artist To Ngoc Van as well as one of the most representative representatives of Vietnamese Fine Arts in the 20th century.
+					The painting of a girl with lilies was created by artist To Ngoc Van in 1943.
+					The picture depicts a portrait of a young woman in a white ao dai next to a vase of white lilies. Tilting his head down to fragrant flowers, shirt colors and flowers blended together to create a gentle color, a bit of sadness and lingeringness.
+					The model of the painting is the artist's Six Girl, She is also a model for many other works including the Lotus Girl. Besides To Ngoc Van, Ms. Sau is also a model for many famous contemporary painters such as Tan Van Can, Nguyen Gia Tri and Luong Xuan Nhi.
+					Young girl with lilies Later sold to famous collector Duc Minh (real name Bui Dinh Than). After his death, this work was sold to his collector by a son named Ha Thuc Can for $ 15,000 and Mr. Can sold this famous work abroad.
+				</p>
+				<!-- <button type="button" class="button" onClick="textToggleHandler()" class="myBtn">Know more</button> -->
+			</div>
+		</div>
+	</section>
+<!-- 	<div class="ao-dai-style text-center">
+		<h1 class="background"><span>Autumn Noon</span></h1>
+	</div> -->
+	
+		<section class="article article-2">
+			<div class="article-text left-side">
+				<div class="article-title"><h1>Autumn Noon</h1></div>			
+				<div class="article-para">
+					<p>
+						This is a beautiful painting portraying the falling leaves of autumn covering the street corner one autumn noon.
+							The master landscape painter of Asia Lam Manh visually presents the delicate poetry autumn season has. The lavish coloring and vibrant painting surface remind us of its transient beauty and prompts to explore it deeply.
+							The artwork is signed on the back and on the front. The certificate of authenticity will include the name of the owner who purchased the piece of artwork. The certificate is signed by Leonid Afremov Studio. If you are buying this painting as a gift, please provide us the name of the gift recipient for the certificate
+							. We can also ship to the address of the recipient of your gift.
+					</p>
+					<!-- <button type="button" class="button" onClick="textToggleHandler()" class="myBtn">Know more</button> -->
+				</div>
+			</div>
+			<div class="article-image article-image-2 right-side"></div>
+		</section>
+		<section class="footer">
+			Copyright&copy; Jerry &#124; All Right Reserved
+		</section>
+	</div>
+	
+	<!-- Scripts -->
+	<script src="musicscript.js"></script>
+	<script src="modalscript.js"></script>
+	<script src="articleText.js"></script>
+
+</body>
+</html>
