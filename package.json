@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "updateGit": "git add . && git commit -m 'testing'"
+    "updateGit": "git add . && git commit -m \"$npm_config_cm \" && git push"
   },
   "author": "",
   "license": "ISC"
