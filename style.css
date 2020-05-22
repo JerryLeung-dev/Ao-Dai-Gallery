@@ -4,8 +4,8 @@
 }
 
 :root {
-	--pink-color: rgba(238,39,211,0.71);
-	--yellow-color: rgba(255,230,0,0.75);
+	--pink-color: rgba(241, 125, 255, 0.76);
+	--yellow-color: rgba(208, 191, 40, 0.62);
 }
 
 .right-menu li{
@@ -274,10 +274,10 @@ h1.background span {
 	content: '';
 	height:50px;
 	width:100px;
-	background-color:rgba(238,39,211,0.7) ;
+	background-color:var(--pink-color) ;
 	position:absolute;
-	top: -8px;
-	left:-8px;
+	top: -2px;
+	left:-2px;
 	z-index:-1;
 }
 
@@ -285,10 +285,10 @@ h1.background span {
 	content: '';
 	height:50px;
 	width:100px;
-	background-color:rgba(238,39,211,0.7) ;
+	background-color:var(--pink-color) ;
 	position:absolute;
-	bottom: -8px;
-	right:-8px;
+	bottom: -2px;
+	right:-2px;
 	z-index:-1;
 }
 
@@ -486,7 +486,7 @@ h1.background span {
 }
 
 .article-title h1 {
-	color:var(--pink);
+	color:var(--pink-color);
 	font-size: 3vw;
 }
 /*----article 2------*/
