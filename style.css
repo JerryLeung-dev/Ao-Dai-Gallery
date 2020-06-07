@@ -22,7 +22,7 @@
 	/*animation-direction: alternate;*/
 } 
 
-@keyframes still {
+/* @keyframes still {
 	from{color:black;}
 	to{color:black;}
 }
@@ -33,7 +33,7 @@
 	50% {transform:rotate(0deg);}
 	75% {transform:rotate(-5deg);}
 	100% {transform:rotate(0deg);}
-}
+} */
 
 .right-menu .fa {
 	font-size:18px;
@@ -437,24 +437,25 @@ h1.background span {
 #extra-imgs {
 	display:grid;
 	grid-gap:10px;
-	grid-template-columns: repeat(2,1fr);
-	grid-template-rows: repeat(50,1fr);
+	grid-template-columns: repeat(2,50%);
+	grid-template-rows: repeat(2,50%);
 	max-width:95%;
 	margin:0 auto;
+	height:80vh;
 }
 
 .one {
 	grid-column: 1/2;
-	grid-row: 1/51;
+	grid-row: 1/3;
 }
 
 .two {
 	grid-column:2/3;
-	grid-row:1/26;
+	grid-row:1/2;
 }
 .three {
 	grid-column:2/3;
-	grid-row:26/51;
+	grid-row:2/3;
 }
 
 
